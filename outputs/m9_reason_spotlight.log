@@ -1,0 +1,21 @@
+=== M9 views (eps=0.05) | train 4350 val 884 test 2825 ===
+view          variant    cov   Hit@1   Hit@3     MRR  NDCG@3
+micro         FT        1675   0.731   0.950  0.8408  0.8610
+micro         FTR       1675   0.732   0.952  0.8416  0.8627
+micro         routed    1675   0.736   0.953  0.8442  0.8651
+r-present     FT         567   0.787   0.949  0.8727  0.8844
+r-present     FTR        567   0.788   0.956  0.8750  0.8895
+r-present     routed     567   0.799   0.959  0.8825  0.8965
+r-nontrivial  FT         489   0.765   0.941  0.8585  0.8704
+r-nontrivial  FTR        489   0.767   0.949  0.8612  0.8763
+r-nontrivial  routed     489   0.779   0.953  0.8698  0.8845
+tiebreak      FT          44   0.273   0.659  0.5271  0.5105
+tiebreak      FTR         44   0.250   0.636  0.4924  0.4759
+tiebreak      routed      44   0.364   0.682  0.5768  0.5584
+
+=== macro-average over reason strata (non-empty, covered) ===
+FT       strata= 13 macro-MRR=0.8467
+FTR      strata= 13 macro-MRR=0.8496
+routed   strata= 13 macro-MRR=0.8546
+
+r-present errors repaired by routing vs FTR: fixed 6 broken 0

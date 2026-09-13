@@ -1,0 +1,20 @@
+subjects = 8059
+
+=== F_top=1 (n=5939, events=80) vs F_top=0 (n=2120, events=33) ===
+median survival: Noned vs Noned
+survival at 365d: 0.940 vs 0.940 | at 730d: 0.913 vs 0.922
+log-rank z = +0.590, p = 0.5554
+
+=== T_top=1 (n=5104, events=63) vs T_top=0 (n=2955, events=50) ===
+median survival: Noned vs Noned
+survival at 365d: 0.942 vs 0.938 | at 730d: 0.920 vs 0.909
+log-rank z = -0.543, p = 0.5870
+
+=== R_sup=1 (n=1235, events=16) vs R_sup=0 (n=6824, events=97) ===
+median survival: Noned vs Noned
+survival at 365d: 0.956 vs 0.936 | at 730d: 0.933 vs 0.911
+log-rank z = -1.983, p = 0.0474
+
+=== Cox PH (Breslow) ===
+not reported: 113 events / 8,059 subjects, near-separation makes the partial likelihood diverge; log-rank tests are the primary inference.
+saved KM curves to ../figures/km_survival.png

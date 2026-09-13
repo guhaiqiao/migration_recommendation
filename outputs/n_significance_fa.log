@@ -1,0 +1,2 @@
+f_flat: n=54 | Hit@1 Fa 0.389 vs F 0.296 | MRR delta +0.0614 95% CI [+0.0062,+0.1207] | McNemar discordant Fa-wins=5 F-wins=0 p=0.0625
+reason_active: n=370 | Hit@1 Fa 0.789 vs F 0.784 | MRR delta -0.0038 95% CI [-0.0160,+0.0084] | McNemar discordant Fa-wins=9 F-wins=7 p=0.8036

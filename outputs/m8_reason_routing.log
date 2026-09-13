@@ -1,0 +1,27 @@
+=== validation routing decision (per stratum, FTR vs FT MRR) ===
+reason               n     FTR      FT  decision
+<empty>            509  0.8617  0.8617  FT(no R)
+Activity             2  1.0000  1.0000       FTR
+BugIssue            24  0.8972  0.8972       FTR
+Deprecation         34  0.8235  0.9069        FT
+Functionality       21  0.7897  0.7817       FTR
+Integration         38  0.8860  0.8860       FTR
+Organization         2  1.0000  1.0000       FTR
+Performance         16  0.8688  0.8854        FT
+Popularity           1  1.0000  1.0000       FTR
+Security             6  0.9167  0.8750       FTR
+Simplification      14  0.8929  0.8571       FTR
+SizeComplexity       3  0.5833  0.5833       FTR
+Usability           12  0.8542  0.9028        FT
+
+=== test results (covered) ===
+scope         variant    cov   Hit@1   Hit@3     MRR  NDCG@3
+full          FT        1675   0.731   0.950  0.8408  0.8610
+full          FTR       1675   0.732   0.952  0.8416  0.8627
+full          routed    1675   0.736   0.953  0.8442  0.8651
+annotated     FT         567   0.787   0.949  0.8727  0.8844
+annotated     FTR        567   0.788   0.956  0.8750  0.8895
+annotated     routed     567   0.799   0.959  0.8825  0.8965
+empty         FT        1108   0.703   0.950  0.8246  0.8490
+empty         FTR       1108   0.703   0.950  0.8246  0.8490
+empty         routed    1108   0.703   0.950  0.8246  0.8490
